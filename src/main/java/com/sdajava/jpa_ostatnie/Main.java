@@ -23,6 +23,6 @@ public class Main {
         long startTimeMon = System.currentTimeMillis();
         MongoNoSql.mongoDoIt();
         long endTimeMon = System.currentTimeMillis();
-        System.out.println("Czas wykonania Hiber: " + (endTimeMon - startTimeMon));
+        System.out.println("Czas wykonania Mongo: " + (endTimeMon - startTimeMon));
     }
 }
